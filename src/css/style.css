@@ -1,0 +1,237 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* VARIABLES */
+:root {
+    --background-color: hsl(257, 40%, 49%);
+    --active-color: hsl(300, 69%, 71%);
+    --heading-font: 'Poppins', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+}
+
+/* STYLE */
+body {
+    background: url(../images/bg-desktop.svg) no-repeat var(--background-color);
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    max-width: 1440px;
+}
+
+.header {
+    padding: 53px 70px;
+}
+
+.header .logo {
+    width: 215px;
+}
+
+.main {
+    display: flex;
+    padding: 29px 73px 17px;
+}
+
+.main .image {
+    max-width: 100%;
+}
+
+.main .info {
+    color: #fff;
+    padding: 43px 0 0 52px;
+}
+
+.main .info h1, 
+.main .info p {
+    max-width: 520px;
+}
+
+.main .info h1 {
+    font-family: var(--heading-font);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.main .info p {
+    font-family: var(--text-font);
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 23px;
+}
+
+.main .info .register-btn {
+    font-family: var(--heading-font);
+    font-size: 18px;
+    background-color: #fff;
+    color: var(--background-color);
+    box-shadow: 1px 3px 7px 3px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 64px;
+}
+
+.main .info .register-btn:hover {
+    background-color: var(--active-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 72px 50px 0;
+}
+
+.footer a {
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 9px;
+}
+
+.footer a::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+}
+
+.footer a:hover ::before{
+    color: var(--active-color);
+}
+
+.footer a:hover::before {
+    border-color: var(--active-color);
+}
+
+.footer i {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer i.fa-facebook-f {
+    font-size: 18px;
+}
+
+.footer i.fa-twitter {
+    font-size: 16px;
+}
+
+.footer i.fa-instagram {
+    font-size: 21px;
+}
+
+@media (max-width:768px) {
+    .header {
+        padding: 45px 70px 40px;
+    }
+    
+    .header .logo {
+        width: 190px;
+    }
+
+    .main .info {
+        padding-top: 0;
+    }
+
+    .main .info h1 {
+        font-size: 27px;
+    }
+
+    .main .info p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .main .info .register-btn {
+        text-align: center;
+        padding: 12px 70px;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
+    .header {
+        padding: 30px 30px;
+    }
+
+    .header .logo {
+        width: 150px;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 5% 10%;
+    }
+
+    .main .screen-preview {
+        margin-bottom: 40px;
+    }
+
+    .main .info {
+        text-align: center;
+        padding: 0 2%;
+    }
+
+    .main .info h1 {
+        font-size: 25px;
+    }
+
+    .main .info .register-btn {
+        font-size: 13px;
+        padding: 10px 75px;
+        margin-top: 10px;    
+    }
+
+    .footer {
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    .footer a {
+        width: 30px;
+        height: 30px;
+        margin: 0 7px;
+    }
+
+    .footer i.fa-facebook-f {
+        font-size: 15px;
+    }
+    
+    .footer i.fa-twitter {
+        font-size: 14px;
+    }
+    
+    .footer i.fa-instagram {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:376px) {
+    body {
+        background-size: auto;
+    } 
+}
