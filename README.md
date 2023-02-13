@@ -25,6 +25,8 @@ Users should be able to:</p>
 <ul>
     <li>Live site URL: <a href="https://julianastahelin.github.io/huddle-landing-page/">https://julianastahelin.github.io/huddle-landing-page/</a></li>
     <li>Frontend Mentor Challenge: <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0</a></li>
+    <li>Frontend Mentor - My solution: <a href="https://www.frontendmentor.io/solutions/solution-using-html-and-css-only--olW0nAOUO">https://www.frontendmentor.io/solutions/solution-using-html-and-css-only--olW0nAOUO</a></li>
+    
 
 </ul>
 
