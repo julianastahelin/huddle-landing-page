@@ -1,4 +1,4 @@
-<h1>NFT Preview card component</h1>
+<h1>Huddle landing page with single introductory section</h1>
 <p> This is a Huddle landing page built as an exercise for advanced HTML and CSS practicing, proposed by the course DevQuest by <a href="https://github.com/devemdobro" target="_blank">Dev em Dobro</a>. The project is based in a challenge from <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>.</p>
 
 
@@ -26,8 +26,6 @@ Users should be able to:</p>
     <li>Live site URL: <a href="https://julianastahelin.github.io/huddle-landing-page/">https://julianastahelin.github.io/huddle-landing-page/</a></li>
     <li>Frontend Mentor Challenge: <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0</a></li>
     <li>Frontend Mentor - My solution: <a href="https://www.frontendmentor.io/solutions/solution-using-html-and-css-only--olW0nAOUO">https://www.frontendmentor.io/solutions/solution-using-html-and-css-only--olW0nAOUO</a></li>
-    
-
 </ul>
 
 <h2>My process</h2>

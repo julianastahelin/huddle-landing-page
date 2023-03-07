@@ -1,0 +1,102 @@
+@media (max-width:768px) {
+    .header {
+        padding: 45px 70px 40px;
+    }
+    
+    .header .logo {
+        width: 190px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .image {
+        max-width: 90%;
+    }
+
+    .container .info {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .container .info .register-btn {
+        margin-top: 10px;
+    }
+
+    .footer {
+        justify-content: center;
+        padding: 30px 0;
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
+    .header {
+        padding: 30px 30px;
+    }
+
+    .header .logo {
+        width: 150px;
+    }
+
+    .container {
+        padding: 5% 10%;
+    }
+
+    .container .image {     
+        max-width: 100%;
+    }
+
+    .container .info {
+        padding: 0 2%;
+    }
+
+    .container .info h1 {
+        font-size: 25px;
+    }
+
+    .container .info p {
+        font-size: 15px;
+    }
+
+    .container .info .register-btn {
+        font-size: 13px;
+        padding: 10px 75px;    
+    }
+
+    .footer a {
+        width: 30px;
+        height: 30px;
+        margin: 0 7px;
+    }
+
+    .footer i.fa-facebook-f {
+        font-size: 15px;
+    }
+    
+    .footer i.fa-twitter {
+        font-size: 14px;
+    }
+    
+    .footer i.fa-instagram {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:376px) {
+    body {
+        background-size: auto;
+    } 
+}  
